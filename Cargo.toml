@@ -1,0 +1,12 @@
+[package]
+name = "rssstringsadder"
+version = "1.0.0"
+edition = "2021"
+
+[[bin]]
+name = "rssstringsadder"
+path = "src/main.rs"
+
+[profile.release]
+opt-level = 2
+strip = true
